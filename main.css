@@ -1,6 +1,133 @@
 main {
-  display: flex;
+  display: grid;
   position: relative;
   z-index: 0;
-  background-color: blue;
+  background-color: var(--gray-500);
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+}
+
+.second-header p {
+  font: var(--subtitle);
+  color: var(--red);
+}
+
+.second-header h2 {
+  font: var(--title-md);
+  color: var(--gray-100);
+}
+
+.title-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1040px;
+  height: 61px;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 72px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  width: 1040px;
+  height: 584px;
+  margin-top: 54px;
+  margin-bottom: 144px;
+}
+
+
+
+.grid-container img {
+  width: 306px;
+  height: 156px;
+  border-radius: 12px;
+  margin: 12px;
+}
+
+.grid-container h2 {
+  font: var(--title-sm);
+  color: var(--gray-100);
+  margin: 0 12px 17px 12px;
+}
+
+.grid-container p {
+  font: var(--text-sm-maven);
+  color: var(--gray-200);
+  margin: 0 12px 17px 12px;
+}
+
+.card-travelgram {
+  width: 330px;
+  height: 280px;
+  background-color: var(--gray-400);
+  border-radius: 12px;
+}
+
+.card-travelgram:hover {
+  border: 1px solid gray;
+  transition: border 0.3s ease;
+}
+
+.card-tech-news {
+  width: 330px;
+  height: 280px;
+  background-color: var(--gray-400);
+  border-radius: 12px;
+}
+
+.card-tech-news:hover {
+  border: 1px solid gray;
+  transition: border 0.3s ease;
+}
+
+.card-pg-receita {
+  width: 330px;
+  height: 280px;
+  background-color: var(--gray-400);
+  border-radius: 12px;
+}
+
+.card-pg-receita:hover {
+  border: 1px solid gray;
+  transition: border 0.3s ease;
+}
+
+.card-zingen {
+  width: 330px;
+  height: 280px;
+  background-color: var(--gray-400);
+  border-radius: 12px;
+}
+
+.card-zingen:hover {
+  border: 1px solid gray;
+  transition: border 0.3s ease;
+}
+
+.card-refund {
+  width: 330px;
+  height: 280px;
+  background-color: var(--gray-400);
+  border-radius: 12px;
+}
+
+.card-refund:hover {
+  border: 1px solid gray;
+  transition: border 0.3s ease;
+}
+
+.card-pg-turismo {
+  width: 330px;
+  height: 280px;
+  background-color: var(--gray-400);
+  border-radius: 12px;
+}
+
+.card-pg-turismo:hover {
+  border: 1px solid gray;
+  transition: border 0.3s ease;
 }
