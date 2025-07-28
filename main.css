@@ -1,0 +1,6 @@
+main {
+  display: flex;
+  position: relative;
+  z-index: 0;
+  background-color: blue;
+}
