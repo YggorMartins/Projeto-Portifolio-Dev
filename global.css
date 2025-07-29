@@ -36,7 +36,6 @@ html, body {
 }
 
 body {
-  /* display: flex; */
   justify-content: center;
   align-items: center;
 }
@@ -68,7 +67,6 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 0px;
-  /* margin 0; */
   gap: 56px;
   width: 680px;
   height: 327px;
@@ -114,6 +112,7 @@ body {
   justify-content: center;
   margin-top: 80px;
   align-items: center;
+  gap: 20px;
 }
 
 .title-1 {
@@ -127,12 +126,13 @@ body {
 .subtitle {
   display: flex;
   justify-content: center;
-  font: var(--font-family-inconsolata);
+  font: var(--subtitle);
   color: var(--gray-200);
-  gap: 4px;
+  gap: 6px;
 }
 
 .subtitle p {
+  font: var(--subtitle);
   color: var(--red);
 }
 
@@ -144,8 +144,7 @@ body {
 
 .tags {
   display: flex;
-  margin-top: 25px;
-  justify-content: flex-start;
+  margin-top: 170px;
   
   gap: 16px;
   width: 754px;
@@ -179,7 +178,6 @@ section img {
 
 .html {
   display: flex;
-  position: relative;
   justify-content: center;
   align-items: center;
   background-color: var(--gray-400);
@@ -192,7 +190,6 @@ section img {
 
 .css {
   display: flex;
-  position: relative;
   justify-content: center;
   align-items: center;
   background-color: var(--gray-400);
@@ -205,7 +202,6 @@ section img {
 
 .javascript {
   display: flex;
-  position: relative;
   justify-content: center;
   align-items: center;
   background-color: var(--gray-400);
@@ -218,7 +214,6 @@ section img {
 
 .react {
   display: flex;
-  position: relative;
   justify-content: center;
   align-items: center;
   background-color: var(--gray-400);
@@ -231,7 +226,6 @@ section img {
 
 .node {
   display: flex;
-  position: relative;
   justify-content: center;
   align-items: center;
   background-color: var(--gray-400);

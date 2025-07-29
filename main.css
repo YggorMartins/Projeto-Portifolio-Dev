@@ -186,8 +186,6 @@ main {
 .container-3 p {
   font: var(--text-sm-maven);
   color: var(--gray-200);
-
-
 }
 
 .devices { 
