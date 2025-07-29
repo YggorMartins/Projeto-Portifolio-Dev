@@ -1,9 +1,91 @@
-.contacts {
+.container-contacts {
   display: flex;
-  width: 100vw;
-  height: 787px;
+  width: 100%;
+  min-height: 100vh;
   background: url(./assets/Background_Contacts.png);
-  background-size: contain;
-  background-repeat: space;
-  position: absolute;
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-2 {
+  display: flex;
+  width: 420px;
+  height: 91px;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 128px;
+}
+
+h3 {
+  font: var(--subtitle);
+  color: var(--purple);
+}
+
+.question {
+  font: var(--title-md);
+  color: var(--gray-100);
+}
+
+.text-3 {
+  font: var(--text-md-maven);
+  color: var(--gray-200);
+}
+
+.container-button {
+  display: grid;
+  margin-top: 48px;
+  width: 400px;
+  height: 320px;
+  box-sizing: border-box;
+  gap: 16px;
+}
+
+div button {
+  display: flex;
+  width: 400px;
+  height: 68px;
+  background-color: var(--gray-400);
+  border: 0;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  border-radius: 8px;
+}
+
+button:hover {
+  border: 1px solid var(--blue);
+  transition: color 0.5s;
+}
+
+button:hover i {
+  color: var(--blue);
+}
+
+a {
+  text-decoration: none;
+}
+
+a p {
+  display: flex;
+  font: var(--text-md-maven);
+  color: var(--gray-200);
+  width: 288px;
+  height: 22px;
+
+}
+
+a i {
+  font-size: 28px;
+  color: var(--gray-300);
+}
+
+button .ph-arrow-up-right {
+  color: var(--blue);
+  font-size: 20px;
 }
