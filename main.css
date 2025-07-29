@@ -4,7 +4,7 @@ main {
   z-index: 0;
   background-color: var(--gray-500);
   width: 100vw;
-  height: 100vh;
+  height: 917px;
   justify-content: center;
 }
 
@@ -38,8 +38,6 @@ main {
   margin-top: 54px;
   margin-bottom: 144px;
 }
-
-
 
 .grid-container img {
   width: 306px;
@@ -130,4 +128,100 @@ main {
 .card-pg-turismo:hover {
   border: 1px solid gray;
   transition: border 0.3s ease;
+}
+
+.services {
+  display: flex;
+  background-color: var(--gray-600);
+  background-size: 100% auto;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 480px;
+  justify-content: center;
+  padding: 88px 120px 120px 120px;
+}
+
+.services p {
+  font: var(--subtitle);
+  color: var(--red);
+}
+
+.services h2 {
+  font: var(--title-md);
+  color: var(--gray-100);
+}
+
+.text-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 88px;
+  width: 355px;
+  height: 61px;
+}
+
+.container-3 {
+  display: grid;
+  width: 888px;
+  height: 155px;
+  margin-top: 56px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 24px;
+}
+
+.container-3  i {
+  font-size: 48px;
+  margin: 20px 20px 20px 20px;
+}
+
+.container-3  h2 {
+  font: var(--title-sm);
+  color: var(--gray-100);
+}
+
+.container-3 p {
+  font: var(--text-sm-maven);
+  color: var(--gray-200);
+
+
+}
+
+.devices { 
+  display: flex;
+  width: 280px;
+  height: 155px;
+  border-radius: 12px;
+  border: 1px solid gray;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: baseline;
+  color: var(--purple);
+}
+
+.hard-drives {
+  display: flex;
+  width: 280px;
+  height: 155px;
+  border-radius: 12px;
+  border: 1px solid gray;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: baseline;
+  color: var(--yellow);
+}
+
+.infinity {
+  display: flex;
+  width: 280px;
+  height: 155px;
+  border-radius: 12px;
+  border: 1px solid gray;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: baseline;
+  color: var(--green);
 }

@@ -1,0 +1,9 @@
+.contacts {
+  display: flex;
+  width: 100vw;
+  height: 787px;
+  background: url(./assets/Background_Contacts.png);
+  background-size: contain;
+  background-repeat: space;
+  position: absolute;
+}
